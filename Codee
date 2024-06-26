@@ -1,0 +1,56 @@
+
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("Rinns Hub", "Default")
+
+local tab = DrRayLibrary.newTab("Main Tab", "ImageIdHere")
+
+tab.newToggle("Auto Farm", "Auto Farm one person until they die and goes to another", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
+
+tab.newToggle("Use First Skill", "Uses your first skill whilr your auto farming", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
+
+tab.newToggle("Use Second Skill", "Uses your second skill while your auto farming", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
+
+tab.newToggle("Use Third Skill", "Uses your third skill while auto farming", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
+
+tab.newToggle("Use Fourth Skill", "Uses your fourth skill while auto farming", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
+
+tab.newToggle("Auto Farm", "Teleports you behind one person his them 3 times then teleports to another", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
+
+
